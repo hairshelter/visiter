@@ -1,0 +1,159 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  clear:both;
+}
+  
+a {
+  text-decoration: none;
+}
+
+div#center {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header{
+  height:160px;
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  background-color:darkturquoise;
+}
+.header-left{
+  text-align: center;
+}
+.header-left h1{
+  font-size:50px;
+  color:white;
+}
+.header-left h2{
+  font-size: 30px;
+  color:white;
+}
+.header-list{
+  width:100%;
+  color:white;
+  float:left;
+  font-size:20px;
+  border-top:1px rgba(255,255,255,0.5) solid;
+  padding-top:7px;
+}
+.header-list a{
+  margin:50px;
+}
+.clear{
+  clear:left;
+}
+.top-wrapper{
+  width:80%;
+  height:100px;
+  padding-top:100px;
+  padding-bottom:100px;
+  background-image:url(visit-back.png) ;
+  background-size:960px 300px;
+  text-align: center;
+  margin:auto;
+}
+.top-wrapper h1{
+  font-size:20px;
+}
+.btn{
+  padding:8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius: 4px;
+}
+.message{
+  background-color: rgb(219, 102, 19);
+}
+.side-wrapper{
+  width:25%;
+  float:left;
+  display:inline-block; 
+}
+.side-wrapper img{
+  width:80%;
+}
+.prof{
+  border:1px #eee solid;
+}
+.prof h2{
+  background-color:darkturquoise;
+  text-align:center;
+  color:white;
+}
+.contents-wrapper{
+  width:70%;
+  margin-left:5%;
+  float:right;
+  display:inline-block;
+}
+.content{
+  height:200px;
+  border-bottom:1px #eee solid;
+  margin-bottom:25px;
+}
+.content img{
+  display:inline-block;
+  background-size:300px 200px;
+}
+.content h3{
+  font-size:20px;
+}
+
+.content .date{
+  font-size:10px;
+}
+.page-wrapper{
+  height:50px;
+  padding-left:150px;
+}
+.page-numbers li{
+  float:left;
+  font-size:20px;
+  padding-right:40px;
+}
+.page-numbers a{
+  border:1px rgba(6, 72, 158, 0.952) solid;
+  padding:0 5px;
+  color:rgba(6, 72, 158, 0.952);
+}
+.page-numbers span{
+  border:1px rgba(6, 72, 158, 0.952) solid;
+  padding:0 5px;
+}
+footer{
+  width:100%;
+  background-color:rgb(111, 119, 131);
+  bottom:0;
+  height:50px;
+  clear:both;
+}
+footer p{
+  color:white;
+  text-align:center;
+}
+.icon-line{
+  margin:0 auto;
+  display:block;
+  width:40px;
+}
+.icon-line img{
+  width:40px;
+}
