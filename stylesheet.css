@@ -33,6 +33,7 @@ header{
   display:inline-block;
   text-align:center;
   background-color:darkturquoise;
+  border-radius:4px;
 }
 .header-left{
   text-align: center;
@@ -85,7 +86,8 @@ header{
 .side-wrapper{
   width:25%;
   float:left;
-  display:inline-block; 
+  display:inline-block;
+  margin-top:30px;
 }
 .side-wrapper img{
   width:80%;
@@ -97,28 +99,41 @@ header{
   background-color:darkturquoise;
   text-align:center;
   color:white;
+  border-radius:4px;
 }
 .contents-wrapper{
+  margin-top:30px;
   width:70%;
   margin-left:5%;
   float:right;
   display:inline-block;
 }
-.content{
-  height:200px;
-  border-bottom:1px #eee solid;
-  margin-bottom:25px;
+.contents h1{
+  padding-left:220px;
+  margin-bottom:20px;
 }
-.content img{
-  display:inline-block;
-  background-size:300px 200px;
+.contents h2{
+  margin-top:30px;
+  margin-bottom:20px;
+  background-color:darkturquoise;
+  text-align:center;
+  color:white;
+  border-radius:4px;
 }
-.content h3{
-  font-size:20px;
+.contents p{
+  letter-spacing:0.5px;
 }
-
-.content .date{
-  font-size:10px;
+.contents li{
+  list-style:square;
+  margin-left:20px;
+}
+.line-wrapper{
+  width:100%;
+  text-align:center;
+}
+.date{
+  text-align:right;
+  font-size:12;
 }
 .page-wrapper{
   height:50px;
@@ -144,15 +159,16 @@ footer{
   bottom:0;
   height:50px;
   clear:both;
+  border-radius:4px;
 }
 footer p{
   color:white;
   text-align:center;
 }
 .icon-line{
-  margin:0 auto;
-  display:block;
   width:40px;
+  display:block;
+  margin:0 auto;
 }
 .icon-line img{
   width:40px;
